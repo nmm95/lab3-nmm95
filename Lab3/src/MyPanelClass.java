@@ -33,7 +33,7 @@ public class MyPanelClass extends JPanel {
 //                        Polygon p = new Polygon();
 //                        p.addPoint(x1 + 5, y1 + 25);
 //                        p.addPoint(x1 + 20, y1 + 10);
-//                        p.addPoint(x1 + 35, y1 + 25);
+//                        p.addPoint(x1 + 35, y1 + 25);  
 //                        p.addPoint(x1 + 25, y1 + 25);
 //                        p.addPoint(x1 + 25, y1 + 45);
 //                        p.addPoint(x1 + 15, y1 + 45);
