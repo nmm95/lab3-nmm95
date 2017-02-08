@@ -24,23 +24,23 @@ public class MyPanelClass extends JPanel {
                         int height = y2 - y1;
  
                         //Paint the background
-                        g.setColor(Color.MAGENTA);
+                        g.setColor(Color.RED);
                         g.fillRect(x1, y1, width, height);
                         g.fillRect(x1, y1, width + 1, height + 1);
                         
                         
-//                        
-//                        Polygon p = new Polygon();
-//                        p.addPoint(x1 + 5, y1 + 25);
-//                        p.addPoint(x1 + 20, y1 + 10);
-//                        p.addPoint(x1 + 35, y1 + 25);  
-//                        p.addPoint(x1 + 25, y1 + 25);
-//                        p.addPoint(x1 + 25, y1 + 45);
-//                        p.addPoint(x1 + 15, y1 + 45);
-//                        p.addPoint(x1 + 15, y1 + 25);
-//                        g.setColor(Color.YELLOW);
-//                        g.fillPolygon(p);
-//                        
+                        
+                        Polygon p = new Polygon();
+                        p.addPoint(x1, y1);
+                        p.addPoint(width/2, height/2);
+                        p.addPoint(x1 ,y2);  
+                        g.setColor(Color.BLUE);
+                        g.fillPolygon(p);
+                        
+                        
+                        
+                        
+                
                         
                         Polygon p2 = new Polygon();
                         p2.addPoint(x1 + 25, y1 + 73);
